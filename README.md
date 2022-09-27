@@ -16,4 +16,4 @@
 
   
 
-:link:[Site Mundo Invertido](https://eaemafe.github.io/semana-frontend-mundo-invertido/)
+:link:[Site da Barbearia Rock Star](https://github.com/html-css0/ROCK-STAR.v.2/deployments/activity_log?environment=github-pages)
