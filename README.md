@@ -1,6 +1,6 @@
 ### [![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)  Projeto Barber-Shop com HTML e CSS 
 
-​                                                                <img src="C:\Users\User\Documents\Rock-Star-V2\imgs\Rock Star.png" alt="img" style="zoom: 50%;" />    
+​                                                                <img src="imgs/RockStar.png" alt="img" style="zoom: 50%;" />    
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-- `Front end React`
+- `Front end`
 
 - `HTML/CSS`
 
