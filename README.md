@@ -16,4 +16,4 @@
 
   
 
-:link:[Site da Barbearia Rock Star](https://github.com/html-css0/ROCK-STAR.v.2/deployments/activity_log?environment=github-pages)
+:link:[Site da Barbearia Rock Star](https://html-css0.github.io/ROCK-STAR.v.2/)
