@@ -572,6 +572,7 @@ footer p{
     }
 
     #background-color-Sobre img {
+        display: initial;
         margin-left: 30px;
         width: 350px;
     }
@@ -728,6 +729,7 @@ footer p{
     }
 
     #background-color-Sobre img {
+        display: initial;
         margin-left: 50px;
         width: 300px;
     }
@@ -755,20 +757,20 @@ footer p{
         max-width: 370px;
     }
     .Text-sobre h2{
-        padding: 30px 0px 0px 90px;
+        padding: 20px 0px 0px 18px;
         display: inline-block;
         text-align: center;
         font-size: 50px;
     }
     
     .Text-sobre h5{
-        padding: 0px 0px 0px 70px;
+        padding: 0px 0px 0px 20px;
         display: inline-block;
-        font-size: 25px;
+        font-size: 27px;
     }
     .Text-sobre p {
-        width: 370px;
-        padding-left: 70px;
+        width: 363px;
+        padding-left: 20px;
         display: block;
         font-size: 20px;
     }
