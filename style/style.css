@@ -341,7 +341,28 @@ footer p{
     bottom: 35px;
     font-size: 19px ;
 }
-
+@media (max-width: 1146px) {
+    *{
+        max-width: 1127px;
+    }
+}
+@media (max-width: 1072px){
+    *{
+        max-width: 1050px;
+    }
+    #menu a {
+        padding: 8px;
+        font-size: 17px;
+    }
+    .main-sobre {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #background-color-Sobre img {
+       display: none;
+    }
+  }
 @media (max-width: 1024px) {
     *{
         margin: 0px;
