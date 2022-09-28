@@ -510,6 +510,12 @@ footer p{
         
     }
   }
+  @media (max-width: 773px){
+    #menu a {
+        padding: 8px;
+        font-size: 17px;
+    }
+  }
 /*Responsivo para tablets*/
 @media (max-width: 768px) {
     *{
@@ -643,7 +649,6 @@ footer p{
       top: -7px;
     }
   }
-
   @media (max-width: 500px) {
     *{
         margin: 0px;
@@ -955,7 +960,24 @@ footer p{
       top: -7px;
     }
   }
+@media (max-width: 430px) {
+    #background-color-Sobre img {
+    margin-left: 10px;
+}
+    .Text-sobre h2{
+        padding: 0px;
+        margin-left: 57px;
+    }
 
+    .Text-sobre h5{
+        padding: 5px;
+    }
+
+    .Text-sobre p{
+        padding: 5px;
+    }
+
+}
 /*Responsivo Mobile*/
 
   @media (max-width: 375px) {
