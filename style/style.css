@@ -493,7 +493,23 @@ footer p{
         line-height: 23px;
     }
   }
+ @media (max-width: 950px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
+    .logo{
+        font-size: 30px;
+        padding-bottom: 3px;
+    }
+
+    #menu a{
+        padding: 8px;
+        font-size: 18px;
+        
+    }
+  }
 /*Responsivo para tablets*/
 @media (max-width: 768px) {
     *{
