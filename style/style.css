@@ -818,10 +818,6 @@ footer p{
   }
 
 @media (max-width: 450px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
     .btn{
         display: none;
     }
@@ -870,20 +866,20 @@ footer p{
     }
     .Text-sobre h2{
         margin-top: 30px;
-        margin-left: 65px;
+        padding-left: 70px;
         display: inline-block;
         text-align: center;
         font-size: 60px;
     }
     
     .Text-sobre h5{
-        margin-left: 30px;
+        padding-left: 50px;
         display: inline-block;
         font-size: 32px;
     }
     .Text-sobre p {
         width: 370px;
-        margin-left: 30px;
+        padding-left: 50px;
         display: block;
         font-size: 20px;
     }
