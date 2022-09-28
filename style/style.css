@@ -416,6 +416,84 @@ footer p{
     }
   }
 
+  @media (max-width: 950px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logo{
+        font-size: 30px;
+        padding-bottom: 9px;
+    }
+
+    #menu a{
+        font-size: 18px;
+    }
+    .btn{
+        display: none;
+    }
+
+    h4{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    h1{
+        font-size: 60px;
+    }
+
+    h3{
+        width: 600px;
+        font-size: 29px;
+    }
+
+    .Container-btn{
+        width: 650px;
+    }
+    .main-sobre{
+        width: 700px;
+    }
+    #background-color-Sobre img {
+        display: none;
+        
+    }
+
+    #Container-serviços{
+        padding-top: 70px;
+    }
+
+    .title h2 {
+        font-size: 50px;
+        width: 390px;
+        text-align: center;
+    }  
+    .Card:hover{
+        background-color: #101010;
+        margin-top: -1px;
+        box-shadow: 2px 20px 25px #dc2e685d;
+        border-color: #f9004d;
+        transition: .2s;
+    }
+
+    #me-contate p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    footer h6 {
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+        margin-top: 15px;
+        letter-spacing: 1px;
+        line-height: 23px;
+    }
+  }
+
 /*Responsivo para tablets*/
 @media (max-width: 768px) {
     *{
