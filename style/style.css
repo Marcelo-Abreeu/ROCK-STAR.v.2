@@ -573,14 +573,14 @@ footer p{
 
     #background-color-Sobre img {
         display: initial;
-        margin-left: 30px;
-        width: 350px;
+        margin-left: 90px;
+        width: 400px;
     }
 
     .main-sobre{
         flex-direction: column;
         margin: 0;
-        width: 380px;
+        width: 400px;
     }
     .Card:hover{
         background-color: #101010;
@@ -599,31 +599,33 @@ footer p{
         text-align: center;
     }
     .Text-sobre {
-        max-width: 400px;
+        max-width: 450px;
     }
     .Text-sobre h2{
-        margin-top: 30px;
-        margin-left: 65px;
+        margin-top: 40px;
+        padding-left: 111px;
         display: inline-block;
         text-align: center;
         font-size: 60px;
     }
     
     .Text-sobre h5{
-        margin-left: 30px;
-        display: inline-block;
-        font-size: 32px;
+        padding-left: 87px;
+        letter-spacing: 1px;
+        display: block;
+        font-size: 33px;
     }
     .Text-sobre p {
-        width: 370px;
-        margin-left: 30px;
+        width: 471px;
+        padding-left: 83px;
+        letter-spacing: 3px;
         display: block;
         font-size: 20px;
     }
 
     .Text-sobre  button{
         width: 330px;
-        margin-left: 50px;
+        margin-left: 96px;
       
     }   
 
