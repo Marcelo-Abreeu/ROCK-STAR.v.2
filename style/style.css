@@ -1068,7 +1068,7 @@ footer p{
 
     #background-color-Sobre img {
         display: initial;
-        margin-left: 50px;
+        margin-left: 57px;
         width: 300px;
     }
 
@@ -1095,20 +1095,20 @@ footer p{
         max-width: 370px;
     }
     .Text-sobre h2{
-        padding: 20px 0px 0px 18px;
+        padding: 20px 0px 0px 42px;
         display: inline-block;
         text-align: center;
         font-size: 50px;
     }
     
     .Text-sobre h5{
-        padding: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 61px;
         display: inline-block;
-        font-size: 27px;
+        font-size: 28px;
     }
     .Text-sobre p {
         width: 363px;
-        padding-left: 60px;
+        padding-left: 70px;
         display: block;
         font-size: 20px;
     }
@@ -1193,5 +1193,63 @@ footer p{
     #nav.active #hamburger::after {
       transform: rotate(-135deg);
       top: -7px;
+    }
+  }
+
+  @media (max-width: 320px){
+    .Main {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        }
+    .logo {
+        font-size: 37px;
+        padding-bottom: 0px;
+    }
+    h4 {
+        font-size: 27px;
+        padding-left: 10px;
+    }
+    h1 {
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    h3 {
+        width: 300px;
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .Container-btn {
+        width: 285px;
+        padding-left: 10px;
+    }
+    #background-color-Sobre img {
+        display: initial;
+        margin-left: 3px;
+        width: 290px;
+    }
+    .Text-sobre {
+        max-width: 300px;
+    }
+
+    .Text-sobre h2 {
+        padding: 20px 0px 0px 30px;
+        margin: 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .Text-sobre h5 {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-left: 21px;
+    }
+    .Text-sobre p {
+        width: 300px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    .Text-sobre button {
+        width: 279px;
+        margin-left: 15px;
     }
   }
