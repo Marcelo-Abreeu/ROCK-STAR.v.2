@@ -525,7 +525,7 @@ footer p{
         line-height: 23px;
     }
   }
- @media (max-width: 950px) {
+ @media screen and (max-width: 950px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -542,14 +542,14 @@ footer p{
         
     }
   }
-  @media (max-width: 774px){
+  @media screen and (max-width: 774px){
     #menu a {
         padding: 8px;
         font-size: 17px;
     }
   }
 /*Responsivo para tablets*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -681,7 +681,7 @@ footer p{
       top: -7px;
     }
   }
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -838,7 +838,7 @@ footer p{
     }
   }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .btn{
         display: none;
     }
@@ -988,7 +988,7 @@ footer p{
       top: -7px;
     }
   }
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
     #background-color-Sobre img {
     margin-left: 30px;
 }
@@ -1006,7 +1006,7 @@ footer p{
     }
 
 }
-@media (min-width: 393px) and (max-width:400px) {
+@media screen and (min-width: 393px) and (max-width:400px) {
     .main-sobre {
         width: 332px;
     }
@@ -1044,7 +1044,7 @@ footer p{
     }
 }
 
-@media (max-width: 393px){
+@media screen and (max-width: 393px){
     .main-sobre{
         width: 350px;
     }
@@ -1077,7 +1077,7 @@ footer p{
 }
 /*Responsivo Mobile*/
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -1228,7 +1228,7 @@ footer p{
     }
   }
 
-  @media (max-width: 320px){
+  @media screen and (max-width: 320px){
     .Main {
         position: absolute;
         top: 50%;
