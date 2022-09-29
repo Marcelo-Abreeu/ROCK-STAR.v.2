@@ -1006,7 +1006,7 @@ footer p{
     }
 
 }
-@media (max-width: 400px) {
+@media (min-width: 393px) and (max-width:400px) {
     .main-sobre {
         width: 332px;
     }
@@ -1018,11 +1018,11 @@ footer p{
         font-size: 24px;
     }
     #background-color-Sobre img {
-    margin-left: 35px;
+    margin-left: 50px;
 }
     .Text-sobre h2{
         padding: 10px;
-        margin-left: 45px;
+        margin-left: 59px;
     }
 
     .Text-sobre h5{
@@ -1034,7 +1034,7 @@ footer p{
     }
     .Text-sobre  button{
         width: 330px;
-        margin-left: 51px;
+        margin-left: 60px;
     }
 
     .title h2 {
