@@ -1043,6 +1043,38 @@ footer p{
         text-align: center;
     }
 }
+
+@media (max-width: 393px){
+    .main-sobre{
+        width: 350px;
+    }
+    h1 {
+        font-size: 29px;
+    }
+    .Container-btn {
+        width: 330px;
+    }
+    #background-color-Sobre img {
+        margin-left: 24px;
+    }
+    .Text-sobre h2 {
+        margin-left: 47px;
+    }
+    .Text-sobre h5 {
+        padding-left: 37px;
+    }
+    .Text-sobre p {
+        padding-left: 40px;
+        margin: 0px;
+        margin-bottom: 20px;
+        width: 393px
+    }
+    .Text-sobre button {
+        width: 330px;
+        margin-left: 46px;
+    }
+    
+}
 /*Responsivo Mobile*/
 
   @media (max-width: 375px) {
