@@ -464,8 +464,12 @@ footer p{
        max-width: 340px; 
     }
     #background-color-Sobre img {
-        width: 350px;
-        margin-left: 71px;
+        display: initial;
+        width: 340px;
+        margin-left: 61px;
+    }
+    .Container-btn{
+        width: 300px;
     }
     .main-sobre{
         flex-direction: column;
