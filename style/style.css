@@ -525,6 +525,7 @@ footer p{
   footer p {
     font-size: 19px;
     width: 350px;
+  }
 }
   @media screen and (max-width: 375px) {
     *{
