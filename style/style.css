@@ -460,9 +460,6 @@ footer p{
 
 /*Responsivo Mobile*/
   @media  screen and (max-width: 393px) {
-    .Main{
-       max-width: 340px; 
-    }
     #background-color-Sobre img {
         display: initial;
         width: 340px;
