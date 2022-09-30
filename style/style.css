@@ -341,288 +341,64 @@ footer p{
     bottom: 35px;
     font-size: 19px ;
 }
-@media (max-width: 1146px) {
-    *{
-        max-width: 1127px;
-    }
-}
-@media (max-width: 1072px){
-    *{
-        max-width: 1050px;
-    }
+@media screen and (max-width: 980px){
     #menu a {
-        padding: 8px;
-        font-size: 17px;
+        padding: 0.5rem;
+        font-size: 16px;
     }
     .main-sobre {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        width: 800px;
     }
     #background-color-Sobre img {
-       display: none;
+        display: none;
     }
-  }
-@media (max-width: 1024px) {
-    *{
-        margin: 0px;
-        padding: 0px;
+    .title h2 {
+        color: #fff;
+        font-size: 75px;
+        width: 800px;
+        margin: 30px auto;
+        text-align: center;
     }
-
-    .logo{
-        font-size: 50px;
-        padding-bottom: 10px;
-    }
+}
+@media screen and (max-width: 840px) {
     .btn{
         display: none;
     }
-
-    h4{
-        padding-top: 50px;
-        font-size: 30px;
-    }
-    h1{
-        font-size: 60px;
-    }
-
-    h3{
-        width: 600px;
-        font-size: 29px;
-    }
-
-    .Container-btn{
-        width: 650px;
-    }
-    .main-sobre{
-        width: 700px;
-    }
-    #background-color-Sobre img {
-        display: none;
-        
-    }
-
-    #Container-serviços{
-        padding-top: 70px;
-    }
-
-    .title h2 {
-        font-size: 50px;
-        width: 390px;
-        text-align: center;
-    }  
-    .Card:hover{
-        background-color: #101010;
-        margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
-    }
-
-    #me-contate p{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    footer h6 {
-        font-size: 30px;
-    }
-
-    footer p {
-        font-size: 24px;
-        width: 400px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
-    }
-  }
-
-  @media (max-width: 995px) {
-    .logo{
-        font-size: 30px;
-        padding-bottom: 9px;
-    }
-
-    #menu a{
-        font-size: 18px;
-    }
-  }
-
-  @media (max-width: 950px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .logo{
-        font-size: 30px;
-        padding-bottom: 9px;
-    }
-
-    #menu a{
-        font-size: 18px;
-    }
-    .btn{
-        display: none;
-    }
-
-    h4{
-        padding-top: 50px;
-        font-size: 30px;
-    }
-    h1{
-        font-size: 60px;
-    }
-
-    h3{
-        width: 600px;
-        font-size: 29px;
-    }
-
-    .Container-btn{
-        width: 650px;
-    }
-    .main-sobre{
-        width: 700px;
-    }
-    #background-color-Sobre img {
-        display: none;
-        
-    }
-
-    #Container-serviços{
-        padding-top: 70px;
-    }
-
-    .title h2 {
-        font-size: 50px;
-        width: 390px;
-        text-align: center;
-    }  
-    .Card:hover{
-        background-color: #101010;
-        margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
-    }
-
-    #me-contate p{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    footer h6 {
-        font-size: 30px;
-    }
-
-    footer p {
-        font-size: 24px;
-        width: 400px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
-    }
-  }
- @media screen and (max-width: 950px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .logo{
-        font-size: 30px;
-        padding-bottom: 3px;
-    }
-
-    #menu a{
-        padding: 8px;
-        font-size: 18px;
-        
-    }
-  }
-  @media screen and (max-width: 774px){
     #menu a {
-        padding: 8px;
-        font-size: 17px;
+        padding: 0.8rem;
+        font-size: 16px;
     }
-  }
+    .title h2 {
+        color: #fff;
+        font-size: 75px;
+        width: 800px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 69px;
+    }
+    .main-sobre {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 800px;
+    }
+    #background-color-Sobre img {
+        display: none;
+    }
+
+    #me-contate p {
+        font-size: 28px;
+    }
+
+}
+
 /*Responsivo para tablets*/
-@media screen and (max-width: 768px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .logo{
-        font-size: 50px;
-        padding-bottom: 10px;
-    }
-    .btn{
-        display: none;
-    }
-
-    h4{
-        padding-top: 50px;
-        font-size: 30px;
-    }
-    h1{
-        font-size: 60px;
-    }
-
-    h3{
-        width: 600px;
-        font-size: 29px;
-    }
-
-    .Container-btn{
-        width: 650px;
-    }
-    .main-sobre{
-        width: 700px;
-    }
-    #background-color-Sobre img {
-        display: none;
-        
-    }
-
-    #Container-serviços{
-        padding-top: 70px;
-    }
-
-    .title h2 {
-        font-size: 50px;
-        width: 390px;
-        text-align: center;
-    }  
-    .Card:hover{
-        background-color: #101010;
-        margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
-    }
-
-    #me-contate p{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    footer h6 {
-        font-size: 30px;
-    }
-
-    footer p {
-        font-size: 24px;
-        width: 400px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
-    }
-
-
+@media (max-width: 768px) {
     #menu {
       display: block;
       position: absolute;
@@ -681,402 +457,71 @@ footer p{
       top: -7px;
     }
   }
-  @media screen and (max-width: 500px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    .btn{
-        display: none;
-    }
-    h1{
-        font-size: 35px;
-    }
 
-    h3{
-        width: 350px;
-        font-size: 29px;
+/*Responsivo Mobile*/
+  @media  screen and (max-width: 393px) {
+    .Main{
+       max-width: 340px; 
     }
-
-    .Container-btn{
-        width: 350px;
-    }
-
     #background-color-Sobre img {
-        display: initial;
-        margin-left: 90px;
-        width: 400px;
+        width: 350px;
+        margin-left: 71px;
     }
-
     .main-sobre{
         flex-direction: column;
         margin: 0;
-        width: 400px;
-    }
-    .Card:hover{
-        background-color: #101010;
-        margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
-    }
-    #Container-serviços{
-        padding-top: 70px;
-    }
-
-    .title h2 {
-        font-size: 50px;
-        width: 390px;
-        text-align: center;
-    }
-    .Text-sobre {
-        max-width: 450px;
-    }
-    .Text-sobre h2{
-        margin-top: 40px;
-        padding-left: 111px;
-        display: inline-block;
-        text-align: center;
-        font-size: 60px;
-    }
-    
-    .Text-sobre h5{
-        padding-left: 87px;
-        letter-spacing: 1px;
-        display: block;
-        font-size: 33px;
-    }
-    .Text-sobre p {
-        width: 471px;
-        padding-left: 83px;
-        letter-spacing: 3px;
-        display: block;
-        font-size: 20px;
-    }
-
-    .Text-sobre  button{
-        width: 330px;
-        margin-left: 96px;
-      
-    }   
-
-    #me-contate p{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    footer h6 {
-        font-size: 25px;
-    }
-
-    footer p {
-        font-size: 19px;
         width: 300px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
     }
-
-
-    #menu {
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 100px;
-      right: 0px;
-      background: #191919;
-      transition: 0.6s;
-      z-index: 1000;
-      height: 0px;
-      visibility: hidden;
-      overflow-y: hidden;
+    .Text-sobre button {
+        margin-left: 55px;
     }
-    #nav.active #menu {
-      height: calc(100vh - 70px);
-      visibility: visible;
-      overflow-y: auto;
-    }
-    #menu a {
-      padding: 1rem 0;
-      margin: 0 1rem;
-      border-bottom: 2px solid #101010;
-    }
-    #btn-mobile {
-      display: flex;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border: none;
-      background: none;
-      cursor: pointer;
-      gap: 0.5rem;
-    }
-    #hamburger {
-      border-top: 2px solid;
-      width: 20px;
-    }
-    #hamburger::after,
-    #hamburger::before {
-      content: '';
-      display: block;
-      width: 20px;
-      height: 2px;
-      background: currentColor;
-      margin-top: 5px;
-      transition: 0.3s;
-      position: relative;
-    }
-    #nav.active #hamburger {
-      border-top-color: transparent;
-    }
-    #nav.active #hamburger::before {
-      transform: rotate(135deg);
-    }
-    #nav.active #hamburger::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
-  }
-
-@media screen and (max-width: 450px) {
-    .btn{
-        display: none;
-    }
-    h1{
-        font-size: 35px;
-    }
-
-    h3{
-        width: 350px;
-        font-size: 29px;
-    }
-
-    .Container-btn{
-        width: 350px;
-    }
-
-    #background-color-Sobre img {
-        display: initial;
-        margin-left: 30px;
-        width: 350px;
-    }
-
-    .main-sobre{
-        flex-direction: column;
-        margin: 0;
-        width: 380px;
-    }
-    .Card:hover{
-        background-color: #101010;
-        margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
-    }
-    #Container-serviços{
-        padding-top: 70px;
-    }
-
     .title h2 {
         font-size: 50px;
-        width: 390px;
+        width: 300px;
+        margin-top: -50px;
         text-align: center;
     }
     .Text-sobre {
-        max-width: 400px;
+        max-width: 370px;
     }
-    .Text-sobre h2{
-        margin-top: 30px;
-        padding-left: 70px;
-        display: inline-block;
-        text-align: center;
-        font-size: 60px;
+    .Text-sobre h2 {
+        padding: 20px 0px 0px 44px;
+        font-size: 50px;
     }
-    
-    .Text-sobre h5{
-        padding-left: 50px;
-        display: inline-block;
-        font-size: 32px;
+    .Text-sobre h5 {
+        padding: 0px 0px 0px 44px;
+        font-size: 28px;
     }
     .Text-sobre p {
-        width: 370px;
-        padding-left: 50px;
-        display: block;
-        font-size: 20px;
+        width: 393px;
+        padding-left: 43px;
+        font-size: 19px;
     }
-
     .Text-sobre  button{
         width: 330px;
         margin-left: 50px;
-      
     }   
-
-    #me-contate p{
-        text-align: center;
-        font-size: 20px;
-    }
-
-    footer h6 {
-        font-size: 25px;
-    }
-
-    footer p {
-        font-size: 19px;
-        width: 300px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
-    }
-
-
-    #menu {
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 100px;
-      right: 0px;
-      background: #191919;
-      transition: 0.6s;
-      z-index: 1000;
-      height: 0px;
-      visibility: hidden;
-      overflow-y: hidden;
-    }
-    #nav.active #menu {
-      height: calc(100vh - 70px);
-      visibility: visible;
-      overflow-y: auto;
-    }
-    #menu a {
-      padding: 1rem 0;
-      margin: 0 1rem;
-      border-bottom: 2px solid #101010;
-    }
-    #btn-mobile {
-      display: flex;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border: none;
-      background: none;
-      cursor: pointer;
-      gap: 0.5rem;
-    }
-    #hamburger {
-      border-top: 2px solid;
-      width: 20px;
-    }
-    #hamburger::after,
-    #hamburger::before {
-      content: '';
-      display: block;
-      width: 20px;
-      height: 2px;
-      background: currentColor;
-      margin-top: 5px;
-      transition: 0.3s;
-      position: relative;
-    }
-    #nav.active #hamburger {
-      border-top-color: transparent;
-    }
-    #nav.active #hamburger::before {
-      transform: rotate(135deg);
-    }
-    #nav.active #hamburger::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
-  }
-@media screen and (max-width: 430px) {
-    #background-color-Sobre img {
-    margin-left: 30px;
-}
-    .Text-sobre h2{
-        padding: 0px;
-        margin-left: 57px;
-    }
-
-    .Text-sobre h5{
-        padding-left: 35px;
-    }
-
-    .Text-sobre p{
-        padding-left: 40px;
-    }
-
-}
-@media screen and (min-width: 393px) and (max-width:400px) {
-    .main-sobre {
-        width: 332px;
-    }
-    .Container-btn {
-        width: 300px;
-    }
-    h3 {
-        width: 332px;
-        font-size: 24px;
-    }
-    #background-color-Sobre img {
-    margin-left: 50px;
-}
-    .Text-sobre h2{
-        padding: 10px;
-        margin-left: 59px;
-    }
-
-    .Text-sobre h5{
-        padding-left: 50px;
-    }
-
-    .Text-sobre p{
-        padding-left: 70px;
-    }
-    .Text-sobre  button{
-        width: 330px;
-        margin-left: 60px;
-    }
-
-    .title h2 {
-        font-size: 50px;
-        width: 300px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 393px){
-    .main-sobre{
-        width: 350px;
+    .btn{
+        display: none;
     }
     h1 {
-        font-size: 29px;
+        color: #fff;
+        margin: 20px 0px 20px;
+        font-size: 62px;
+        letter-spacing: 2px;
     }
-    .Container-btn {
-        width: 330px;
+    #me-contate p {
+        font-size: 26px;
+        margin-bottom: 25px;
+        text-align: center;
     }
-    #background-color-Sobre img {
-        margin-left: 24px;
-    }
-    .Text-sobre h2 {
-        margin-left: 47px;
-    }
-    .Text-sobre h5 {
-        padding-left: 37px;
-    }
-    .Text-sobre p {
-        padding-left: 40px;
-        margin: 0px;
-        margin-bottom: 20px;
-        width: 393px
-    }
-    .Text-sobre button {
-        width: 330px;
-        margin-left: 46px;
-    }
-    
+    footer h6 {
+        font-size: 31px;
+  }
+  footer p {
+    font-size: 19px;
+    width: 350px;
 }
-/*Responsivo Mobile*/
-
   @media screen and (max-width: 375px) {
     *{
         margin: 0px;
@@ -1088,35 +533,26 @@ footer p{
     h1{
         font-size: 29px;
     }
-
-    h3{
-        width: 290px;
+    h3 {
+        width: 310px;
         font-size: 25px;
     }
-
     .Container-btn{
         width: 310px;
     }
-
     #background-color-Sobre img {
         display: initial;
-        margin-left: 57px;
+        margin-left: 56px;
         width: 300px;
     }
-
     .main-sobre{
         flex-direction: column;
         margin: 0;
         width: 300px;
     }
     .Card:hover{
-        background-color: #101010;
         margin-top: -1px;
-        box-shadow: 2px 20px 25px #dc2e685d;
-        border-color: #f9004d;
-        transition: .2s;
     }
-
     .title h2 {
         font-size: 50px;
         width: 300px;
@@ -1126,162 +562,84 @@ footer p{
     .Text-sobre {
         max-width: 370px;
     }
-    .Text-sobre h2{
-        padding: 20px 0px 0px 42px;
-        display: inline-block;
-        text-align: center;
+    .Text-sobre h2 {
+        padding: 20px 0px 0px 44px;
         font-size: 50px;
     }
-    
-    .Text-sobre h5{
-        padding: 0px 0px 0px 61px;
-        display: inline-block;
+    .Text-sobre h5 {
+        padding: 0px 0px 0px 44px;
         font-size: 28px;
     }
     .Text-sobre p {
-        width: 363px;
-        padding-left: 70px;
-        display: block;
-        font-size: 20px;
+        width: 393px;
+        padding-left: 43px;
+        font-size: 19px;
     }
-
     .Text-sobre  button{
         width: 330px;
         margin-left: 50px;
     }   
-
+    #me-contate h1 {
+        font-size: 45px;
+    }
     #me-contate p{
         text-align: center;
         font-size: 20px;
     }
-
     footer h6 {
-        font-size: 25px;
+        font-size: 28px;
     }
-
     footer p {
-        font-size: 19px;
-        width: 300px;
-        text-align: center;
-        margin-top: 15px;
-        letter-spacing: 1px;
-        line-height: 23px;
+        width: 350px;
     }
+}
 
-
-    #menu {
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 100px;
-      right: 0px;
-      background: #191919;
-      transition: 0.6s;
-      z-index: 1000;
-      height: 0px;
-      visibility: hidden;
-      overflow-y: hidden;
-    }
-    #nav.active #menu {
-      height: calc(100vh - 70px);
-      visibility: visible;
-      overflow-y: auto;
-    }
-    #menu a {
-      padding: 1rem 0;
-      margin: 0 1rem;
-      border-bottom: 2px solid #101010;
-    }
-    #btn-mobile {
-      display: flex;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border: none;
-      background: none;
-      cursor: pointer;
-      gap: 0.5rem;
-    }
-    #hamburger {
-      border-top: 2px solid;
-      width: 20px;
-    }
-    #hamburger::after,
-    #hamburger::before {
-      content: '';
-      display: block;
-      width: 20px;
-      height: 2px;
-      background: currentColor;
-      margin-top: 5px;
-      transition: 0.3s;
-      position: relative;
-    }
-    #nav.active #hamburger {
-      border-top-color: transparent;
-    }
-    #nav.active #hamburger::before {
-      transform: rotate(135deg);
-    }
-    #nav.active #hamburger::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
-  }
-
-  @media screen and (max-width: 320px){
-    .Main {
-        position: absolute;
-        top: 50%;
-        left: 0%;
-        }
-    .logo {
-        font-size: 37px;
-        padding-bottom: 0px;
-    }
+@media screen and (max-width: 320px){
     h4 {
-        font-size: 27px;
-        padding-left: 10px;
+        font-size: 28px;
     }
     h1 {
-        font-size: 23px;
-        padding-left: 10px;
+        font-size: 32px;
     }
     h3 {
-        width: 300px;
+        width: 270px;
         font-size: 22px;
-        padding-left: 10px;
     }
     .Container-btn {
-        width: 285px;
-        padding-left: 10px;
+        width: 250px;
     }
     #background-color-Sobre img {
-        display: initial;
-        margin-left: 3px;
-        width: 290px;
+        margin-left: 2px;
+        width: 270px;
     }
     .Text-sobre {
         max-width: 300px;
     }
-
     .Text-sobre h2 {
-        padding: 20px 0px 0px 30px;
-        margin: 0px;
-        text-align: center;
-        font-size: 50px;
+        padding: 20px 0px 0px 20px;
     }
     .Text-sobre h5 {
-        font-size: 24px;
-        padding-top: 10px;
-        padding-left: 21px;
+        font-size: 25px;
+        padding-left: 6px;
     }
     .Text-sobre p {
         width: 300px;
-        padding-left: 40px;
-        font-size: 20px;
+        padding-left: 16px;
+        font-size: 17px;
     }
     .Text-sobre button {
-        width: 279px;
-        margin-left: 15px;
+        width: 250px;
+        margin-left: 25px;
     }
-  }
+    .Paragrafo-button {
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+    footer h6 {
+        font-size: 26px;
+        margin: 0px;
+    }
+    footer p {
+        width: 300px;
+    }
+}
