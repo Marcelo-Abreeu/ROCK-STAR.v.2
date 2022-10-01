@@ -399,7 +399,7 @@ footer p{
 
 /*Responsivo para tablets*/
 @media screen and (max-width: 768px) {
-    *{
+   body{
 background-color: red;
 }
     #menu {
