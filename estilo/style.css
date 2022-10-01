@@ -457,7 +457,7 @@ footer p{
       top: -7px;
     }
   }
-  @media screen and (max-width: 393px) {
+  @media screen and (max-width: 399px) {
     .btn{
         display: none;
     }
@@ -491,7 +491,7 @@ footer p{
         text-align: center;
     }
     .Text-sobre {
-        max-width: 370px;
+        max-width: 330px;
     }
     .Text-sobre h2 {
         padding: 20px 0px 0px 44px;
@@ -502,12 +502,12 @@ footer p{
         font-size: 28px;
     }
     .Text-sobre p {
-        width: 393px;
+        width: 320px;
         padding-left: 43px;
         font-size: 19px;
     }
     .Text-sobre  button{
-        width: 330px;
+        width: 310px;
         margin-left: 50px;
     }   
     #me-contate h1 {
@@ -521,7 +521,7 @@ footer p{
         font-size: 28px;
     }
     footer p {
-        width: 350px;
+        width: 330px;
     }
 }
 /*Responsivo Mobileee*/
