@@ -465,15 +465,15 @@ footer p{
         font-size: 29px;
     }
     h3 {
-        width: 300px;
+        width: 330px;
         font-size: 25px;
     }
     .Container-btn{
-        width: 250px;
+        width: 300px;
     }
     #background-color-Sobre img {
         display: initial;
-        margin-left: 56px;
+        margin-left: 76px;
         width: 300px;
     }
     .main-sobre{
@@ -491,7 +491,7 @@ footer p{
         text-align: center;
     }
     .Text-sobre {
-        max-width: 330px;
+        max-width: 370px;
     }
     .Text-sobre h2 {
         padding: 20px 0px 0px 44px;
