@@ -398,7 +398,7 @@ footer p{
 }
 
 /*Responsivo para tablets*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #menu {
       display: block;
       position: absolute;
@@ -462,6 +462,7 @@ footer p{
         background-color: red;
         
     }
+}
 /*Responsivo Mobileee*/
   @media screen and (max-width: 375px) {
     *{
