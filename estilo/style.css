@@ -474,7 +474,7 @@ footer p{
     #background-color-Sobre img {
         display: initial;
         margin-left: 76px;
-        width: 300px;
+        width: 390px;
     }
     .main-sobre{
         flex-direction: column;
@@ -507,7 +507,7 @@ footer p{
         font-size: 19px;
     }
     .Text-sobre  button{
-        width: 310px;
+        width: 350px;
         margin-left: 50px;
     }   
     #me-contate h1 {
