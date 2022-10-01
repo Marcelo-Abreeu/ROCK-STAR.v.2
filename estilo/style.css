@@ -457,16 +457,76 @@ footer p{
       top: -7px;
     }
   }
-@media screen and (max-width: 393px) {
+  @media screen and (max-width: 393x) {
     *{
-        background-color: red;
-        
+        margin: 0px;
+        padding: 0px;
     }
-}
-@media screen and (max-width: 393px) {
-    body{
-    background-color: red;
-}
+    .btn{
+        display: none;
+    }
+    h1{
+        font-size: 29px;
+    }
+    h3 {
+        width: 310px;
+        font-size: 25px;
+    }
+    .Container-btn{
+        width: 310px;
+    }
+    #background-color-Sobre img {
+        display: initial;
+        margin-left: 56px;
+        width: 300px;
+    }
+    .main-sobre{
+        flex-direction: column;
+        margin: 0;
+        width: 300px;
+    }
+    .Card:hover{
+        margin-top: -1px;
+    }
+    .title h2 {
+        font-size: 50px;
+        width: 300px;
+        margin-top: -50px;
+        text-align: center;
+    }
+    .Text-sobre {
+        max-width: 370px;
+    }
+    .Text-sobre h2 {
+        padding: 20px 0px 0px 44px;
+        font-size: 50px;
+    }
+    .Text-sobre h5 {
+        padding: 0px 0px 0px 44px;
+        font-size: 28px;
+    }
+    .Text-sobre p {
+        width: 393px;
+        padding-left: 43px;
+        font-size: 19px;
+    }
+    .Text-sobre  button{
+        width: 330px;
+        margin-left: 50px;
+    }   
+    #me-contate h1 {
+        font-size: 45px;
+    }
+    #me-contate p{
+        text-align: center;
+        font-size: 20px;
+    }
+    footer h6 {
+        font-size: 28px;
+    }
+    footer p {
+        width: 350px;
+    }
 }
 /*Responsivo Mobileee*/
   @media screen and (max-width: 375px) {
