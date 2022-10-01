@@ -458,10 +458,6 @@ footer p{
     }
   }
   @media screen and (max-width: 393px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
     .btn{
         display: none;
     }
@@ -473,7 +469,7 @@ footer p{
         font-size: 25px;
     }
     .Container-btn{
-        width: 310px;
+        width: 290px;
     }
     #background-color-Sobre img {
         display: initial;
