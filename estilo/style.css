@@ -457,7 +457,11 @@ footer p{
       top: -7px;
     }
   }
-
+@media screen and (max-width: 393px) {
+    *{
+        background-color: red;
+        
+    }
 /*Responsivo Mobileee*/
   @media screen and (max-width: 375px) {
     *{
