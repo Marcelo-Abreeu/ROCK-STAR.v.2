@@ -459,14 +459,14 @@ footer p{
   }
 
 /*Responsivo Mobile*/
-  @media  screen and (max-width: 393px) {
+  @media  screen and (max-width: 399px) {
     .Main{
        max-width: 340px; 
     }
     #background-color-Sobre img {
         display: initial;
-        width: 340px;
-        margin-left: 61px;
+        width: 345px;
+        margin-left: 74px;
     }
     .Container-btn{
         width: 300px;
