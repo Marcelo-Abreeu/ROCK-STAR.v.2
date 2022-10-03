@@ -398,7 +398,7 @@ footer p{
 }
 
 /*Responsivo para tablets*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #menu {
       display: block;
       position: absolute;
@@ -457,6 +457,7 @@ footer p{
       top: -7px;
     }
   }
+<<<<<<< HEAD:style/style.css
 
 /*Responsivo Mobile*/
   @media  screen and (max-width: 399px) {
@@ -467,17 +468,34 @@ footer p{
         display: initial;
         width: 345px;
         margin-left: 74px;
+=======
+  @media screen and (max-width: 399px) {
+    .btn{
+        display: none;
+    }
+    h1{
+        font-size: 29px;
+    }
+    h3 {
+        width: 330px;
+        font-size: 25px;
+>>>>>>> 3167d914b334cbdf37728ee0e06188e58a26a35c:estilo/style.css
     }
     .Container-btn{
         width: 300px;
+    }
+    #background-color-Sobre img {
+        display: initial;
+        margin-left: 96px;
+        width: 390px;
     }
     .main-sobre{
         flex-direction: column;
         margin: 0;
         width: 300px;
     }
-    .Text-sobre button {
-        margin-left: 55px;
+    .Card:hover{
+        margin-top: -1px;
     }
     .title h2 {
         font-size: 50px;
@@ -497,35 +515,29 @@ footer p{
         font-size: 28px;
     }
     .Text-sobre p {
-        width: 393px;
+        width: 370px;
         padding-left: 43px;
         font-size: 19px;
     }
     .Text-sobre  button{
-        width: 330px;
+        width: 350px;
         margin-left: 50px;
     }   
-    .btn{
-        display: none;
+    #me-contate h1 {
+        font-size: 45px;
     }
-    h1 {
-        color: #fff;
-        margin: 20px 0px 20px;
-        font-size: 62px;
-        letter-spacing: 2px;
-    }
-    #me-contate p {
-        font-size: 26px;
-        margin-bottom: 25px;
+    #me-contate p{
         text-align: center;
+        font-size: 20px;
     }
     footer h6 {
-        font-size: 31px;
-  }
-  footer p {
-    font-size: 19px;
-    width: 350px;
+        font-size: 28px;
+    }
+    footer p {
+        width: 330px;
+    }
 }
+/*Responsivo Mobileee*/
   @media screen and (max-width: 375px) {
     *{
         margin: 0px;
