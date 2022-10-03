@@ -375,6 +375,15 @@ footer p{
 
 /*Responsivo para tablets*/
 @media screen and (max-width: 768px) {
+    *{
+        max-width: 735px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    #me-contate p {
+        font-size: 26px;
+    }
     #menu {
       display: block;
       position: absolute;
