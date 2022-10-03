@@ -458,23 +458,19 @@ footer p{
     }
   }
 
+
 /*Responsivo Mobile*/
   @media screen and (max-width: 399px) {
     .Main{
        max-width: 340px; 
-    }
-    #background-color-Sobre img {
-        display: initial;
-        width: 345px;
-        margin-left: 74px;
     }
     .Container-btn{
         width: 300px;
     }
     #background-color-Sobre img {
         display: initial;
-        margin-left: 96px;
-        width: 390px;
+        margin-left: 80px;
+        width: 360px;
     }
     .main-sobre{
         flex-direction: column;
@@ -502,8 +498,8 @@ footer p{
         font-size: 28px;
     }
     .Text-sobre p {
-        width: 370px;
-        padding-left: 43px;
+        width: 390px;
+        padding-left: 45px;
         font-size: 19px;
     }
     .Text-sobre  button{
