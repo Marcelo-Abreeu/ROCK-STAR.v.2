@@ -1,4 +1,4 @@
-### [![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)  Projeto Barber-Shop com HTML e CSS 
+## [![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png)  Projeto Barber-Shop com HTML e CSS 
 
 ​                                                                <img src="imgs/RockStar.png" alt="img" style="zoom: 50%;" />    
 
