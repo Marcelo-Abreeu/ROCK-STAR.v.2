@@ -455,7 +455,7 @@ footer p{
     #background-color-Sobre img {
         display: initial;
         margin-left: 80px;
-        width: 360px;
+        width: 100%;
     }
     .main-sobre{
         flex-direction: column;
